@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summer Camp Enrollment</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Summer Camp</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="hero-content">
+                <h1>Join Our Fun-Filled Summer Camp</h1>
+                <p>Register today and give your child an unforgettable summer experience!</p>
+                <a href="#enroll" class="cta-button">Register Now</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="section b2" id="about">
+                <h2>About Our Camp</h2>
+                <p>Our summer camp offers a variety of activities designed to engage and inspire children of all ages. From outdoor adventures to creative arts, we have something for everyone.</p>
+            </div>
+            <div class="section b2" id="activities">
+                <h2>Camp Activities</h2>
+                <ul>
+                    <li><strong>Hiking:</strong> Explore beautiful trails and learn about nature.</li>
+                    <li><strong>Swimming:</strong> Enjoy swimming in our safe and supervised pool.</li>
+                    <li><strong>Arts and Crafts:</strong> Unleash creativity with various arts and crafts projects.</li>
+                    <li><strong>Sports:</strong> Participate in team sports like soccer, basketball, and more.</li>
+                    <li><strong>Campfires:</strong> Experience the joy of evening campfires with stories and songs.</li>
+                    <li><strong>Workshops:</strong> Engage in educational and fun workshops on different topics.</li>
+                </ul>
+            </div>
+            <div class="section b2" id="enroll">
+                <h2>Enroll Now</h2>
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Child's Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Child's Age:</label>
+                        <input type="number" id="age" name="age" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="parent-name">Parent/Guardian's Name:</label>
+                        <input type="text" id="parent-name" name="parent-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact Number:</label>
+                        <input type="tel" id="contact" name="contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="cta-button">Submit Registration</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer b3">
+        <div class="container">
+            <p><a href="#privacy">Privacy Policies</a></p>
+            <p><a href="#terms">Terms and Conditions</a></p>
+            <p><a href="#contact">Contact Us</a></p>
+            <p>&copy; 2024 Summer Camp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
